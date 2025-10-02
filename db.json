@@ -1,0 +1,396 @@
+{
+  "success": true,
+  "token": "admin_token_123",
+  "admins": [
+    {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Super Admin"
+    }
+  ],
+  "routes": [
+    {
+      "from": "Delhi",
+      "to": "Manali",
+      "price": "599",
+      "time": "12h",
+      "image": "/routes/delhi-manali.jpg"
+    },
+    {
+      "from": "Mumbai",
+      "to": "Goa",
+      "price": "799",
+      "time": "10h",
+      "image": "/routes/mumbai-goa.jpg"
+    },
+    {
+      "from": "Jaipur",
+      "to": "Udaipur",
+      "price": "499",
+      "time": "6h",
+      "image": "/routes/jaipur-udaipur.jpeg"
+    },
+    {
+      "from": "Bangalore",
+      "to": "Chennai",
+      "price": "699",
+      "time": "7h",
+      "image": "/routes/bangalore-chennai.jpg"
+    },
+    {
+      "from": "Kolkata",
+      "to": "Darjeeling",
+      "price": "899",
+      "time": "9h",
+      "image": "/routes/kolkata-darjeeling.jpg"
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Vizag",
+      "price": "750",
+      "time": "8h",
+      "image": "/routes/hyderabad-vizag.jpg"
+    },
+    {
+      "from": "Delhi",
+      "to": "Agra",
+      "price": "350",
+      "time": "4h",
+      "image": "/routes/delhi-agra.jpg"
+    },
+    {
+      "from": "Mumbai",
+      "to": "Pune",
+      "price": "299",
+      "time": "3h",
+      "image": "/routes/mumbai-pune.jpg"
+    },
+    {
+      "from": "Chandigarh",
+      "to": "Shimla",
+      "price": "399",
+      "time": "5h",
+      "image": "/routes/chandigarh-shimla.jpg"
+    },
+    {
+      "from": "Lucknow",
+      "to": "Varanasi",
+      "price": "450",
+      "time": "6h",
+      "image": "/routes/lucknow-varanasi.jpg"
+    },
+    {
+      "from": "Bangalore",
+      "to": "Mysore",
+      "price": "350",
+      "time": "3.5h",
+      "image": "/routes/bangalore-mysore.jpg"
+    },
+    {
+      "from": "Ahmedabad",
+      "to": "Surat",
+      "price": "400",
+      "time": "5h",
+      "image": "/routes/ahmedabad-surat.jpg"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1756865977908,
+      "customerId": 1756212366934,
+      "customerName": "Riddhi",
+      "email": "riddhi@gmail.com",
+      "origin": "goa",
+      "destination": "delhi",
+      "date": "2025-08-30",
+      "seats": 1,
+      "amount": 500,
+      "status": "confirmed"
+    },
+    {
+      "id": 1757077408215,
+      "customerId": 1756212366934,
+      "customerName": "Riddhi",
+      "email": "riddhi@gmail.com",
+      "origin": "Ujjain",
+      "destination": "Delhi",
+      "date": "2025-12-31",
+      "seats": 1,
+      "amount": 500,
+      "status": "confirmed"
+    },
+    {
+      "id": 1757084063255,
+      "customerId": 1757084000900,
+      "customerName": "Ritu Verma",
+      "email": "rajputritu2020@gmail.com",
+      "origin": "Ujjain",
+      "destination": "Delhi",
+      "date": "2025-12-31",
+      "seats": 5,
+      "amount": 2500,
+      "status": "confirmed"
+    },
+    {
+      "id": 1757084164493,
+      "customerId": 1757084000900,
+      "customerName": "Ritu Verma",
+      "email": "rituv5780@gmail.com",
+      "origin": "goa",
+      "destination": "manali",
+      "date": "2025-09-27",
+      "seats": 1,
+      "amount": 500,
+      "status": "confirmed"
+    },
+    {
+      "id": 1757312064256,
+      "customerId": 1756212366934,
+      "customerName": "Riddhi",
+      "email": "riddhi@gmail.com",
+      "origin": "goa",
+      "destination": "manali",
+      "date": "2025-09-27",
+      "seats": 1,
+      "amount": 500,
+      "status": "paid"
+    },
+    {
+      "id": 1757312673836,
+      "customerId": 1756212366934,
+      "customerName": "Riddhi",
+      "email": "riddhi@gmail.com",
+      "origin": "goa",
+      "destination": "manali",
+      "date": "2025-09-27",
+      "seats": 1,
+      "amount": 500,
+      "status": "paid"
+    },
+    {
+      "id": 1759391597356,
+      "customerId": 1756212366934,
+      "customerName": "Riddhi",
+      "email": "riddhi@gmail.com",
+      "origin": "Delhi",
+      "destination": "katra",
+      "date": "2025-10-27",
+      "seats": 1,
+      "amount": 500,
+      "status": "paid"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1756964479571,
+      "name": "Riddhi",
+      "rating": 5,
+      "comment": "good",
+      "date": "2025-09-04T05:41:19.572Z"
+    },
+    {
+      "id": 1756971282975,
+      "name": "riddhi",
+      "rating": 5,
+      "comment": "Great journey with AJUMAN HOLIDAYS",
+      "date": "2025-09-04T07:34:42.975Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1756212366934,
+      "name": "Riddhi",
+      "email": "riddhi@gmail.com",
+      "password": "riddhi",
+      "profilePic": ""
+    },
+    {
+      "id": 1757084000900,
+      "name": "Ritu Verma",
+      "email": "rituv5780@gmail.com",
+      "password": "rituverma",
+      "profilePic": ""
+    }
+  ],
+  "payments": [
+    {
+      "id": 1756865993674,
+      "customerId": 1756212366934,
+      "bookingId": 1756865977908,
+      "amount": 500,
+      "date": "2025-09-03T02:19:53.674Z",
+      "status": "success"
+    },
+    {
+      "id": 1756866017336,
+      "customerId": 1756212366934,
+      "bookingId": 1756865977908,
+      "amount": 500,
+      "date": "2025-09-03T02:20:17.336Z",
+      "status": "success"
+    },
+    {
+      "id": 1756866136702,
+      "customerId": 1756212366934,
+      "bookingId": 1756865977908,
+      "amount": 500,
+      "date": "2025-09-03T02:22:16.702Z",
+      "status": "success"
+    },
+    {
+      "id": 1756973497119,
+      "customerId": 1756212366934,
+      "bookingId": 1756973483142,
+      "amount": 2000,
+      "date": "2025-09-04T08:11:37.119Z",
+      "status": "success"
+    },
+    {
+      "id": 1757084077098,
+      "customerId": 1757084000900,
+      "bookingId": 1757084063255,
+      "amount": 2500,
+      "date": "2025-09-05T14:54:37.098Z",
+      "status": "success"
+    },
+    {
+      "id": 1757084177245,
+      "customerId": 1757084000900,
+      "bookingId": 1757084164493,
+      "amount": 500,
+      "date": "2025-09-05T14:56:17.245Z",
+      "status": "success"
+    },
+    {
+      "id": 1757312302351,
+      "customerId": 1756212366934,
+      "bookingId": 1757312064256,
+      "amount": 500,
+      "date": "2025-09-08T06:18:22.351Z",
+      "status": "success"
+    },
+    {
+      "id": 1757312679827,
+      "customerId": 1756212366934,
+      "bookingId": 1757312673836,
+      "amount": 500,
+      "date": "2025-09-08T06:24:39.827Z",
+      "status": "success"
+    },
+    {
+      "id": 1759391603394,
+      "customerId": 1756212366934,
+      "bookingId": 1759391597356,
+      "amount": 500,
+      "date": "2025-10-02T07:53:23.394Z",
+      "status": "success"
+    }
+  ],
+  "buses": [
+    {
+      "id": 1757093993593,
+      "name": "Ajuman Holidays",
+      "serialNumber": "123456789",
+      "registrationNumber": "123456789",
+      "type": "Sleeper",
+      "seatCapacity": 40,
+      "from": "Ahmedabad",
+      "to": "Surat",
+      "image": "",
+      "driverId": "1756212366934",
+      "supervisorId": "1757084000900"
+    },
+    {
+      "id": 1757094135552,
+      "name": "Ajuman Holidays",
+      "serialNumber": "123456789",
+      "registrationNumber": "123456789",
+      "type": "Sleeper",
+      "seatCapacity": 40,
+      "from": "Ahmedabad",
+      "to": "Surat",
+      "image": "",
+      "driverId": "1756212366934",
+      "supervisorId": "1757084000900"
+    },
+    {
+      "id": 1757094174085,
+      "name": "Ajuman Holidays",
+      "serialNumber": "123456789",
+      "registrationNumber": "123456789",
+      "type": "Sleeper",
+      "seatCapacity": 40,
+      "from": "Ahmedabad",
+      "to": "Surat",
+      "image": "",
+      "driverId": "1756212366934",
+      "supervisorId": "1757084000900"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1756212366934,
+      "message": "Your booking is confirmed!"
+    },
+    {
+      "id": 1756212366934,
+      "message": "Bus departure delayed by 30 mins"
+    },
+    {
+      "id": 1756212366934,
+      "message": "New discount available!"
+    },
+    {
+      "id": 1756212366934,
+      "message": "Your booking from undefined → undefined is confirmed!",
+      "isRead": false,
+      "date": "2025-08-28",
+      "customerId": null
+    },
+    {
+      "id": 1756212366934,
+      "message": "Your booking from undefined → undefined is confirmed!",
+      "isRead": false,
+      "date": "2025-08-28",
+      "customerId": null
+    },
+    {
+      "id": 1756212366934,
+      "message": "Your booking from undefined → undefined is confirmed!",
+      "isRead": false,
+      "date": "2025-08-28",
+      "customerId": null
+    },
+    {
+      "id": 1756212366934,
+      "message": "Your booking from undefined → undefined is confirmed!",
+      "isRead": false,
+      "date": "2025-08-28",
+      "customerId": null
+    },
+    {
+      "id": 1756974491296,
+      "message": "Your booking from goa → delhi has been updated.",
+      "isRead": false,
+      "date": "2025-09-04",
+      "customerId": 1756212366934
+    },
+    {
+      "id": 1757083416292,
+      "message": "Your booking from goa → delhi has been updated.",
+      "isRead": false,
+      "date": "2025-09-05",
+      "customerId": 1756212366934
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1757097242278,
+      "name": "Kuldeep",
+      "email": "kuldeep@gmail.com",
+      "phone": "1234567890",
+      "role": "driver"
+    }
+  ]
+}
