@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 
 // ================= MIDDLEWARE =================
 app.use(cors({
-  origin: ["http://localhost:3000", "https://www.ajumanholidays.com"],
+  origin: ["http://localhost:3000", "https://www.ajumanholidays.com","https://ajumanholidays.com"],
   credentials: true
 }));
 app.use(bodyParser.json());
